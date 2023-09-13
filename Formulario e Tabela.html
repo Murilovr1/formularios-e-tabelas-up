@@ -7,7 +7,28 @@
     <title>Formulario e Tabela</title>
 </head>
 
+<style>
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+
 <body>
+
+
     <form>
 
         <label for="fname">Escreva seu primeiro Nome:</label><br>
@@ -126,11 +147,9 @@
 
         <input type="radio" id="mentira" name="fav_language" value="MENTIRA">
         <label for="mentira">Mentira</label><br>
-
-
-
-
     </form>
+
+    <h1>Tabela</h1>
 
 </body>
 
